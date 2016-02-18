@@ -333,6 +333,83 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/images\/product1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 58392,
+		"inputAbbreviatedPath": "\/assets\/images\/product1.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/product2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44435,
+		"inputAbbreviatedPath": "\/assets\/images\/product2.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/product3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 74803,
+		"inputAbbreviatedPath": "\/assets\/images\/product3.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/product4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50194,
+		"inputAbbreviatedPath": "\/assets\/images\/product4.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/product5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 82378,
+		"inputAbbreviatedPath": "\/assets\/images\/product5.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/product6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 67062,
+		"inputAbbreviatedPath": "\/assets\/images\/product6.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/images\/product7.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 109617,
+		"inputAbbreviatedPath": "\/assets\/images\/product7.jpg",
+		"outputAbbreviatedPath": "\/assets\/images\/product7.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/js\/bind-polyfill.js": {
 		"fileType": 64,
 		"ignore": 0,

@@ -14,6 +14,10 @@ html,
 body {
   height: 100%;
   font-family: 'Roboto', sans-serif;
+  background-color: #e1e1e1;
+}
+.main-top {
+  padding-top: 120px;
 }
 p {
   letter-spacing: 3px;
@@ -222,7 +226,8 @@ header {
 .navbar {
   background-color: transparent;
   position: absolute;
-  top: 40px;
+  top: 20px;
+  padding: 0 50px;
 }
 .navbar .brand {
   width: 200px;
@@ -258,6 +263,25 @@ header {
 }
 section {
   padding: 50px;
+}
+.product__nav .product__item {
+  width: 14%;
+}
+.product__nav .product__item .product__item-title {
+  position: relative;
+}
+.product__nav .product__item .product__item-title img {
+  max-width: 100%;
+}
+.product__nav .product__item .product__item-title p {
+  position: absolute;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  color: #fff;
+  width: 700px;
+  text-transform: uppercase;
+  left: 60px;
+  font-size: 62px;
 }
 .contact {
   color: #cacaca;
