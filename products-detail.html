@@ -12,6 +12,11 @@
     <link href="assets/css/css/main.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="assets/js/jquery.fullpage.min.js.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -35,15 +40,33 @@
 
 </nav>
 <div id="fullpage">
-    <section class="product_details">
+    <section class="product_details contact-us">
         <div class="container">
             <div class="row">
 
-                <div class="col-md-8">
-                    <h1 class="text-uppercase">BT Watches & Jewelry</h1>
+                <div class="col-md-6">
+                    <h1 class="text-uppercase">Watch Title</h1>
                     <p>Is a watch and jewelry boutique with a variety of new and
                         exciting timepieces, as well as a full selection of more familiar lines.  Our belief is that each client is unique, with a style and personality that cannot be
                         compared to anyone else.  Our goal is to help each client find beautiful jewelry that highlights that person's individuality.</p>
+                    <form class="form-container" name="contact-form" method="post">
+                        <div class="form-group">
+                            <input class="form-control form-field" type="text" name="name" id="name" placeholder="Name" />
+                        </div>
+
+                        <div class="form-group">
+                            <input class="form-control form-field" type="text" name="phone" id="phone" placeholder="Phone" />
+                        </div>
+
+                        <div class="form-group">
+                        <textarea class="form-control form-field" rows="1" name="message" id="message" placeholder="Message" >
+                        </textarea>
+                        </div>
+                        <div class="form-group pull-right">
+                            <button class="btn btn-submit" type="submit">Send</button>
+                        </div>
+
+                    </form>
                 </div>
                 <div class="col-md-4">
                     <img class="img-responsive" src="assets/images/watch2.jpg">
@@ -52,12 +75,6 @@
         </div>
     </section>
 </div>
-
-
-
-        <script>
-            smoothScroll.init();
-        </script>
 
 </body>
 </html>

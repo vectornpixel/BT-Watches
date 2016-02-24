@@ -332,6 +332,44 @@ section {
   margin-left: 50px;
   margin-right: 50px;
 }
+.contact-us .form-container input {
+  font-weight: 100;
+  display: block;
+  padding: 10px 0px 22px 0px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #d5d5d5;
+  outline: none;
+  margin-bottom: 20px;
+  background: none;
+  color: #000;
+  box-shadow: none;
+  -moz-box-shadow: none;
+}
+.contact-us .form-container textarea {
+  font-weight: 100;
+  padding: 10px 0px 22px 0px;
+  border: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #d5d5d5;
+  outline: none;
+  margin-bottom: 20px;
+  background: transparent;
+  color: #000;
+  box-shadow: none;
+  -moz-box-shadow: none;
+}
+.contact-us .form-field {
+  border: none;
+  border-bottom: 1px solid #000;
+  background: transparent;
+}
+.contact-us .form-field:focus {
+  background: transparent;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  border-bottom: 1px solid #000;
+}
 .contact {
   color: #cacaca;
   padding: 50px;

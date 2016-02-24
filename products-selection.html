@@ -11,8 +11,12 @@
     <META NAME="COPYRIGHT" CONTENT="">
     <link href="assets/css/css/main.css" rel="stylesheet">
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script src="assets/js/bind-polyfill.js"></script>
-    <script src="assets/js/smooth-scroll.js"></script>
+    <script src="assets/js/jquery.fullpage.min.js.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#fullpage').fullpage();
+        });
+    </script>
 </head>
 <body>
 <nav class="navbar navbar-default navbar-fixed-top">
@@ -36,6 +40,7 @@
 
 </nav>
 <div class="clearfix"></div>
+<div id="fullpage">
 <section class="main-top">
        <div class="product__nav row no-gutters">
            <div class="col-md-2 product__item">
@@ -76,11 +81,8 @@
        </div>
 
 </section>
+    </div>
 
-
-        <script>
-            smoothScroll.init();
-        </script>
 
 </body>
 </html>
