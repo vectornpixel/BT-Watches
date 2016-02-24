@@ -265,23 +265,72 @@ section {
   padding: 50px;
 }
 .product__nav .product__item {
+  position: relative;
+  height: 1100px;
   width: 14%;
 }
-.product__nav .product__item .product__item-title {
-  position: relative;
+.product__nav .product__item .product__item-one {
+  height: 100%;
+  background: url("../../images/product1.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
-.product__nav .product__item .product__item-title img {
-  max-width: 100%;
+.product__nav .product__item .product__item-two {
+  height: 100%;
+  background: url("../../images/product2.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
-.product__nav .product__item .product__item-title p {
+.product__nav .product__item .product__item-three {
+  height: 100%;
+  background: url("../../images/product3.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.product__nav .product__item .product__item-four {
+  height: 100%;
+  background: url("../../images/product4.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.product__nav .product__item .product__item-five {
+  height: 100%;
+  background: url("../../images/product5.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.product__nav .product__item .product__item-six {
+  height: 100%;
+  background: url("../../images/product6.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.product__nav .product__item .product__item-seven {
+  height: 100%;
+  background: url("../../images/product7.jpg") bottom center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.product__nav .product__item p {
   position: absolute;
   transform: rotate(-90deg);
   transform-origin: left top 0;
   color: #fff;
   width: 700px;
   text-transform: uppercase;
-  left: 60px;
+  left: 50%;
   font-size: 62px;
+  bottom: 0;
+}
+.product_list .product {
+  border: 1px solid #cacaca;
+}
+.product_details {
+  background-color: #fff;
+  padding-top: 180px;
+  margin-top: 120px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 .contact {
   color: #cacaca;

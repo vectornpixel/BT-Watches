@@ -1,12 +1,53 @@
 .product__nav{
 
   .product__item{
+    position: relative;
+    height:1100px;
     width:14%;
-    .product__item-title{
-      position: relative;
-      img{
-        max-width:100%;
-      }
+    .product__item-one{
+      height: 100%;
+      background: url("../../images/product1.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .product__item-two{
+      height: 100%;
+      background: url("../../images/product2.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .product__item-three{
+      height: 100%;
+      background: url("../../images/product3.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .product__item-four{
+      height: 100%;
+      background: url("../../images/product4.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .product__item-five{
+      height: 100%;
+      background: url("../../images/product5.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .product__item-six{
+      height: 100%;
+      background: url("../../images/product6.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+    .product__item-seven{
+      height: 100%;
+      background: url("../../images/product7.jpg") bottom center;
+      -webkit-background-size: cover;
+      background-size: cover;
+    }
+
+
       p{
         position: absolute;
         transform: rotate(-90deg);
@@ -14,14 +55,27 @@
         color: @white;
         width:700px;
         text-transform: uppercase;
-        left:60px;
+        left:50%;
         font-size:62px;
+        bottom:0;
 
       }
 
-    }
+
 
   }
+  
+}
 
-
+.product_list{
+  .product{
+    border: 1px solid @lightgrey;
+  }
+}
+.product_details{
+  background-color: @white;
+  padding-top:180px;
+  margin-top:120px;
+  margin-left:50px;
+  margin-right:50px;
 }
