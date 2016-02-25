@@ -1,6 +1,7 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,100,300,100italic,300italic,500,400italic,500italic,700,700italic,900,900italic);
 @import "../css/bootstrap.min.css";
 @import "../css/font-awesome.css";
+@import "../css/menu.css";
 /*------------------------------------*\
 		$Global Mixins
 \*------------------------------------*/
@@ -404,9 +405,10 @@ label {
 }
 .btn-submit {
   width: 200px;
-  border: 1px solid #232323;
-  background: #232323;
-  color: #cacaca;
+  border: 2px solid #dc3522;
+  border-radius: 0;
+  background: #dc3522;
+  color: white;
   padding: 8.5px 18px;
   font-size: 18px;
   text-decoration: none;
@@ -414,7 +416,7 @@ label {
   margin-right: auto;
 }
 .btn-submit:hover {
-  border: 1px solid #232323;
-  background: #dc3522;
-  color: #fff;
+  border: 2px solid #dc3522;
+  background: none;
+  color: #000;
 }
